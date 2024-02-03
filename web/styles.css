@@ -1,0 +1,70 @@
+:root {
+    --color-dark-blue: #1B2B40;
+    --color-dark-red: #8c1c1c;
+    --color-light-red: #d95959;
+    --color-light-orange: #D97925;
+    --color-dark-orange: #8c5d1c;
+    --color-white: #F2F2F2;
+    --color-light-blue: #59a6d9;
+    --color-dark-blue2: #1c3e8c;
+}
+
+body, * {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 64vh;
+    background-color: var(--color-dark-blue);
+    color: var(--color-white);
+}
+
+#content > h1 {
+    user-select: none;
+}
+
+#formcontent > input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    gap: 1rem;
+    color: var(--color-white);
+    margin-top: 3rem;
+}
+
+#button2 {
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: var(--color-light-blue);
+    color: var(--color-white);
+    border: none;
+    font-size: 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#button2:hover {
+    background-color: var(--color-dark-blue2);
+}
+
+#button1 {
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: var(--color-light-orange);
+    color: var(--color-white);
+    border: none;
+    font-size: 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#button1:hover {
+    background-color: var(--color-dark-orange);
+}
